@@ -1,0 +1,108 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    margin: 0;
+    padding: 0;
+  }
+  /* primary style */
+  .btn-primary{
+    border: 0;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 35px 19px 36px;
+  }
+  .primary-p{
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  /* header nav styling */
+  header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain , auto;
+    background-position: left, bottom right;
+    /* height: 80vh; */
+    background-color: #FFF8F3;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 230px;
+    padding-top: 30px;
+  }
+  nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+  }
+  nav li{
+    list-style: none;
+  }
+  nav li a{
+    text-decoration: none;
+  }
+  .nav-title{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+  }
+  .nav-title>span{
+    color: #FD6E0A;
+  }
+  /* banner style */
+  .header-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner-text{
+    width: 585px;
+    padding-left: 230px;
+  }
+  .banner-pic{
+    padding-right: 38px;
+    width: 584px;
+  }
+  .banner-pic img{
+    width: 100%;
+  }
+  .btn-contact{
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 35px 19px 36px;
+  }
+  .banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .banner-name{
+    color:#181818;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
